@@ -1,10 +1,12 @@
 ---
-description: Mehndi Designer in Bellevue, Washington.
+description: Henna Designer in Bellevue, Washington.
 #lastmod: 2023-07-05
 title: Henna By Jasmin
 featured_image: martin-martz-wRuhOOaG-Z4-unsplash.jpg # default: first image in this directory
 # featured_image on the home page is used for OpenGraph cards, etc.
 menus:
+params:
+  theme: light
   main:
     name: Home
     weight: -1
