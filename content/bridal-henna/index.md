@@ -3,7 +3,7 @@ description: Celebrate your special day with exquisite bridal henna, intricately
 title: Bridal Henna
 #type: gallery
 weight: 2
-featured_image: hemnna_main_2.jpeg
+featured_image: henna_main.png
 # categories: ["bridal Henna"]
 params:
   theme: light
