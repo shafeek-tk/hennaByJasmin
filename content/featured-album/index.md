@@ -1,8 +1,11 @@
 ---
 date: 2023-01-12
-featured_image: hemnna_main_2.jpeg
+featured_image: bridal_1.png
 title: Bridal Henna
 featured: true
 private: true # do not show in list, only as feature
-description: This is a featured album. It is private, so it is only shown on the homepage.
+description: Celebrate your special day with exquisite bridal henna, intricately designed to enhance your beauty. Our skilled artists create stunning, personalized patterns that reflect your unique style and cultural traditions.
+title: Bridal Henna
+params:
+  theme: light
 ---
