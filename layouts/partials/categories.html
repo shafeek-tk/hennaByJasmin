@@ -1,11 +1,11 @@
+<nav class="categories">
+  <ul>
 {{ with site.Taxonomies.categories }}
-  <nav class="categories">
-    <ul>
       {{ range . }}
         <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
       {{ end }}
-      <li><a href="Contact">Contact us</a></li>
-      <li><a href="About">About us</a></li>
-    </ul>
-  </nav>
 {{ end }}
+<li><a href="Contact">Contact us</a></li>
+<li><a href="About">About us</a></li>
+</ul>
+</nav>

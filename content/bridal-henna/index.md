@@ -4,7 +4,7 @@ title: Bridal Henna
 #type: gallery
 weight: 2
 featured_image: 2024-07-05_18-57-23_550.jpg
-categories: ["bridal Henna"]
+# categories: ["bridal Henna"]
 params:
   theme: light
 ---

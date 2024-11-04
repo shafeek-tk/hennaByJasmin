@@ -6,7 +6,7 @@ sort_by: Name # Exif.Date
 sort_order: desc
 title: Party
 #type: gallery
-categories: ["Party"]
+# categories: ["Party"]
 weight: 3
 params:
   theme: light

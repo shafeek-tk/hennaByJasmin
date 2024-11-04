@@ -6,7 +6,7 @@ sort_by: Name # Exif.Date
 sort_order: desc
 title: Minimalistic
 #type: gallery
-categories: ["Minimalistic"]
+# categories: ["Minimalistic"]
 weight: 3
 params:
   theme: light
