@@ -1,7 +1,7 @@
 ---
 layout: page
 rss_ignore: true
-title: About
+title: About us
 menu:
   main:
     weight: 90

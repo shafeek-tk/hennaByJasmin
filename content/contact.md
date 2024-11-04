@@ -1,7 +1,7 @@
 ---
 layout: page
 rss_ignore: true
-title: Contact
+title: Contact us
 menu:
   main:
     weight: 90
