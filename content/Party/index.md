@@ -1,5 +1,5 @@
 ---
-description: Through photography, the beauty of Mother Nature can be frozen in time. This category celebrates the magic of our planet and beyond — from the immensity of the great outdoors, to miraculous moments in your own backyard.
+description: "Add a splash of fun to your celebrations with vibrant party henna! Our lively designs are perfect for all ages, bringing joy and creativity to every event, from birthdays to festivals."
 featured_image: 2024-10-29_11-06-50_595.jpeg
 menus: "main"
 sort_by: Name # Exif.Date

@@ -5,6 +5,17 @@ title: About
 menu:
   main:
     weight: 90
+params:
+    theme: light 
 ---
 
-This is a demonstration site for the Hugo Gallery theme.
+# About Henna by Jasmin
+
+Welcome to Henna by Jasmin, your premier destination for professional mehndi artistry in Bellevue, Washington. With a perfect 5-star rating from our valued clients, we take pride in creating beautiful, intricate henna designs for all occasions.
+
+## Services
+- Bridal Henna
+- Party Henna
+- Individual Designs
+- Custom Designs
+

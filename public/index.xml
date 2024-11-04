@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Henna By Jasmin on My New Hugo Site</title>
+    <title>Henna By Jasmin</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Henna By Jasmin on My New Hugo Site</description>
+    <description>Recent content on Henna By Jasmin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
@@ -14,7 +14,7 @@
       <guid>http://localhost:1313/bridal-henna/</guid><media:content url="http://localhost:1313/bridal-henna/2024-07-05_18-57-23_550_hu11274328105527095846.jpg" type="image/jpeg"/>
         <description>
           &lt;img src=&quot;http://localhost:1313/bridal-henna/2024-07-05_18-57-23_550_hu11274328105527095846.jpg&quot; /&gt;
-          &lt;p&gt;Fashion and Beauty are a powerful form of self-expression. This category documents style through inspiring shots of street fashion, skincare products, avant-garde editorial photographs, and more.&lt;/p&gt;
+          &lt;p&gt;Celebrate your special day with exquisite bridal henna, intricately designed to enhance your beauty. Our skilled artists create stunning, personalized patterns that reflect your unique style and cultural traditions.&lt;/p&gt;
         </description></item>
     <item>
       <title>Minimalistic</title>
@@ -23,7 +23,7 @@
       <guid>http://localhost:1313/minimalistic/</guid><media:content url="http://localhost:1313/minimalistic/2024-10-19_13-03-41_478_hu15788950822991909995.jpeg" type="image/jpeg"/>
         <description>
           &lt;img src=&quot;http://localhost:1313/minimalistic/2024-10-19_13-03-41_478_hu15788950822991909995.jpeg&quot; /&gt;
-          &lt;p&gt;Through photography, the beauty of Mother Nature can be frozen in time. This category celebrates the magic of our planet and beyond — from the immensity of the great outdoors, to miraculous moments in your own backyard.&lt;/p&gt;
+          &lt;p&gt;Embrace elegance with our minimalistic henna designs, featuring clean lines and subtle artistry. Perfect for those who appreciate beauty in simplicity, each piece is thoughtfully crafted to complement your style.&lt;/p&gt;
         </description></item>
     <item>
       <title>Party</title>
@@ -32,7 +32,7 @@
       <guid>http://localhost:1313/party/</guid><media:content url="http://localhost:1313/party/2024-10-29_11-06-50_595_hu9832483495164573133.jpeg" type="image/jpeg"/>
         <description>
           &lt;img src=&quot;http://localhost:1313/party/2024-10-29_11-06-50_595_hu9832483495164573133.jpeg&quot; /&gt;
-          &lt;p&gt;Through photography, the beauty of Mother Nature can be frozen in time. This category celebrates the magic of our planet and beyond — from the immensity of the great outdoors, to miraculous moments in your own backyard.&lt;/p&gt;
+          &lt;p&gt;Add a splash of fun to your celebrations with vibrant party henna! Our lively designs are perfect for all ages, bringing joy and creativity to every event, from birthdays to festivals.&lt;/p&gt;
         </description></item>
   </channel>
 </rss>

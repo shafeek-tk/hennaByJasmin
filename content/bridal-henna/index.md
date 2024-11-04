@@ -1,6 +1,5 @@
 ---
-description: Fashion and Beauty are a powerful form of self-expression. This category documents style through inspiring shots of street fashion, skincare products, avant-garde editorial photographs, and more.
-menus: "main"
+description: Celebrate your special day with exquisite bridal henna, intricately designed to enhance your beauty. Our skilled artists create stunning, personalized patterns that reflect your unique style and cultural traditions.
 title: Bridal Henna
 #type: gallery
 weight: 2

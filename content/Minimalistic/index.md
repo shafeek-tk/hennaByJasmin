@@ -1,5 +1,5 @@
 ---
-description: Through photography, the beauty of Mother Nature can be frozen in time. This category celebrates the magic of our planet and beyond — from the immensity of the great outdoors, to miraculous moments in your own backyard.
+description: Embrace elegance with our minimalistic henna designs, featuring clean lines and subtle artistry. Perfect for those who appreciate beauty in simplicity, each piece is thoughtfully crafted to complement your style.
 featured_image: 2024-10-19_13-03-41_478.jpeg
 menus: "main"
 sort_by: Name # Exif.Date
