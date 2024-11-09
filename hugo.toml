@@ -1,4 +1,4 @@
-baseURL = 'https://hennaybyjasmin.com/'
+baseURL = 'https://hennabyjasmin.com/'
 languageCode = 'en-us'
 title = 'Henna By Jasmin'
 theme = "gallery"
@@ -7,4 +7,4 @@ theme = "gallery"
   [params.socialIcons]
     facebook = "https://www.facebook.com/JasminHennaDesigns"
     instagram = "https://www.instagram.com/hennabyjasmin_seattle/"
-    email = "mailto:jazzhenna@gmail.com"
+    email = "mailto:jazzhennna@gmail.com"
