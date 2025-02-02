@@ -4,7 +4,8 @@
   {{ if $gallery }}
     {{ $images := .Resources.ByType "image" }}
     {{ $featured := ($images.GetMatch (.Params.featured_image | default "*feature*")) | default (index $images 0) }}
-    {{ $thumbnail := $featured.Filter (slice images.AutoOrient (images.Process "fit 1600x1600")) }}
+    <!-- {{ $thumbnail := $featured.Filter (slice images.AutoOrient (images.Process "fit 1600x1600")) }} -->
+    {{ $thumbnail := $featured.Fill "1600x1600 90% 80%" }}
     {{ $color := index $thumbnail.Colors 0 | default "transparent" }}
     <section class="featured">
       <a class="featured-card" href="{{ .RelPermalink }}" style="background-color: {{ $color }}; background-image: url({{ $thumbnail.RelPermalink }})">

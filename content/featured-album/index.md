@@ -1,6 +1,6 @@
 ---
 date: 2023-01-12
-featured_image: bridal_1.png
+featured_image: main_trial_2.jpeg
 title: Bridal Henna
 featured: true
 private: true # do not show in list, only as feature
