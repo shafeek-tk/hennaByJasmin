@@ -2,6 +2,7 @@ baseURL = 'https://hennabyjasmin.com/'
 languageCode = 'en-us'
 title = 'Henna By Jasmin'
 theme = "gallery"
+timeout = "300s"  # 5 minutes in seconds
 
 [params]
   [params.socialIcons]
