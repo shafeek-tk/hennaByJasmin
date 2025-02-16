@@ -1,0 +1,12 @@
+
+# Mac OS system files
+.DS_Store
+
+# Hugo files
+.hugo_build.lock
+/resources/
+public/
+/static/
+
+# Theme updates
+themes/gallery/
