@@ -1,0 +1,44 @@
+/* custom.css */
+
+hgroup h1 {
+  letter-spacing: 0.1em;
+  word-spacing: 0.2em;
+  font-weight: 400;
+  color: #333;
+}
+
+hgroup p {
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+hgroup {
+  margin-bottom: 4rem;
+}
+
+/* Apply letter spacing and word spacing to all titles */
+h1, h2, h3 {
+  letter-spacing: 0.1em;
+  word-spacing: 0.2em;
+}
+
+/* Modern gallery grid with better spacing */
+.gallery {
+  gap: 0.5rem;
+}
+
+/* Subtle hover effects */
+.album-card {
+  transition: transform 0.2s ease;
+}
+
+.album-card:hover {
+  transform: translateY(-2px);
+}
+
+/* Clean button styling */
+.btn {
+  transition: all 0.2s ease;
+  backdrop-filter: blur(10px);
+}
