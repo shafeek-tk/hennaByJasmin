@@ -1,26 +1,82 @@
 /* custom.css */
 
+/* Elegant font for the entire site */
+body {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+/* Headings with gold accent and refined styling */
 hgroup h1 {
-  letter-spacing: 0.1em;
-  word-spacing: 0.2em;
-  font-weight: 400;
-  color: #333;
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 0.05em;
+  word-spacing: 0.1em;
+  font-weight: 500;
+  color: #2c2c2c;
+}
+
+/* Henna green first letter */
+hgroup h1::first-letter {
+  color: #465034;
+  font-size: 1.2em;
+  font-weight: 600;
 }
 
 hgroup p {
+  font-family: 'Cormorant Garamond', serif;
   letter-spacing: 0.02em;
-  font-weight: 400;
-  opacity: 0.8;
+  font-weight: 500;
+  opacity: 0.9;
+  font-size: 1.2rem;
+  color: #3a3a3a;
 }
 
 hgroup {
   margin-bottom: 4rem;
 }
 
-/* Apply letter spacing and word spacing to all titles */
+/* Apply elegant styling to all titles with gold accents */
 h1, h2, h3 {
-  letter-spacing: 0.1em;
-  word-spacing: 0.2em;
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 0.05em;
+  word-spacing: 0.1em;
+  font-weight: 500;
+}
+
+/* Gold accent for gallery titles */
+.card h2 {
+  color: #2c2c2c;
+  position: relative;
+}
+
+.card h2::before {
+  content: '✦';
+  color: #d4af37;
+  font-size: 0.8em;
+  margin-right: 8px;
+  opacity: 0.7;
+}
+
+/* Navigation with gold hover effect */
+nav a:hover {
+  color: #d4af37 !important;
+  transition: color 0.3s ease;
+}
+
+/* Social icons with gold hover */
+.social-icons a:hover {
+  color: #d4af37;
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+/* Featured card with gold overlay gradient */
+.featured-card > div {
+  background-image: linear-gradient(to top, rgba(212, 175, 55, 0.3) 0%, rgba(0, 0, 0, 0.6) 30%, transparent 70%);
+}
+
+/* Navigation and UI elements with subtle elegance */
+nav, .btn, .card p {
+  font-family: 'Cormorant Garamond', serif;
 }
 
 /* Modern gallery grid with better spacing */
@@ -28,17 +84,29 @@ h1, h2, h3 {
   gap: 0.5rem;
 }
 
-/* Subtle hover effects */
+/* Enhanced hover effects with gold accent */
 .album-card {
-  transition: transform 0.2s ease;
+  transition: all 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
 }
 
 .album-card:hover {
-  transform: translateY(-2px);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(212, 175, 55, 0.15);
 }
 
-/* Clean button styling */
+/* Clean button styling with gold accent */
 .btn {
   transition: all 0.2s ease;
   backdrop-filter: blur(10px);
+}
+
+.btn:hover {
+  background-color: rgba(212, 175, 55, 0.1);
+}
+
+/* Add subtle gold border to images on hover */
+.card img:hover {
+  box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.3);
 }
