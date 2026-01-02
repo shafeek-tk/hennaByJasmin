@@ -2,12 +2,12 @@
 
 /* Elegant font for the entire site */
 body {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Playfair Display', serif;
 }
 
 /* Headings with gold accent and refined styling */
 hgroup h1 {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Playfair Display', serif;
   letter-spacing: 0.01em;
   word-spacing: 0.02em;
   font-weight: 700;
@@ -18,13 +18,13 @@ hgroup h1 {
 hgroup h1::first-letter {
   color: #465034;
   font-size: 1.2em;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 hgroup p {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Playfair Display', serif;
   letter-spacing: 0.02em;
-  font-weight: 500;
+  font-weight: 400;
   opacity: 0.9;
   font-size: 1.2rem;
   color: #3a3a3a;
@@ -36,10 +36,10 @@ hgroup {
 
 /* Apply elegant styling to all titles with gold accents */
 h1, h2, h3 {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Playfair Display', serif;
   letter-spacing: 0.01em;
   word-spacing: 0.02em;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /* Gold accent for gallery titles */
@@ -76,7 +76,7 @@ nav a:hover {
 
 /* Navigation and UI elements with subtle elegance */
 nav, .btn, .card p {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Playfair Display', serif;
 }
 
 /* Modern gallery grid with better spacing */
@@ -94,6 +94,156 @@ nav, .btn, .card p {
 .album-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 25px rgba(212, 175, 55, 0.15);
+}
+
+/* Style all album cards with overlay text */
+.card {
+  position: relative;
+  overflow: hidden;
+}
+
+.card > div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 70%, transparent 100%);
+  color: white;
+  padding: 1.5rem 1rem 1rem;
+  transform: translateY(0);
+  transition: all 0.3s ease;
+}
+
+.card > div > h2 {
+  color: white !important;
+  font-size: 1.1rem !important;
+  margin-bottom: 0.25rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.card > div > p {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-size: 0.85rem !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  margin: 0;
+}
+
+.card:hover > div {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.5) 80%, transparent 100%);
+}
+
+/* Hero-style featured section for mobile */
+section.featured {
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.featured-card {
+  aspect-ratio: 16/10 !important;
+  min-height: 320px;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15), 0 0 30px rgba(212, 175, 55, 0.1);
+  animation: gentle-pulse 4s ease-in-out infinite;
+}
+
+@keyframes gentle-pulse {
+  0%, 100% { box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15), 0 0 30px rgba(212, 175, 55, 0.1); }
+  50% { box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2), 0 0 40px rgba(212, 175, 55, 0.2); }
+}
+
+.featured-card > div {
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 50%, transparent 100%) !important;
+  padding: 2.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.featured-card > div > h2 {
+  font-size: 2.25rem !important;
+  color: #fff;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+  margin-bottom: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  position: relative;
+}
+
+.featured-card > div > h2::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #d4af37, transparent);
+  animation: shimmer 3s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0%, 100% { opacity: 0.5; width: 60px; }
+  50% { opacity: 1; width: 80px; }
+}
+
+.featured-card > div > p {
+  font-size: 1.1rem !important;
+  color: rgba(255, 255, 255, 0.95);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  max-width: 280px;
+  line-height: 1.5;
+}
+
+/* Decorative corner elements */
+.featured-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, rgba(212, 175, 55, 0.1) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+/* Make regular albums smaller on mobile to emphasize hierarchy */
+.galleries {
+  margin-top: 2rem;
+}
+
+.galleries .card {
+  transform: scale(0.95);
+  opacity: 0.9;
+  transition: all 0.3s ease;
+}
+
+.galleries .card:hover {
+  transform: scale(1);
+  opacity: 1;
+}
+
+@media (min-width: 640px) {
+  .featured-card {
+    aspect-ratio: 16/9 !important;
+    min-height: auto;
+  }
+  
+  .featured-card > div {
+    justify-content: flex-end;
+    align-items: flex-start;
+    text-align: left;
+    padding: 3rem;
+  }
+  
+  .galleries .card {
+    transform: none;
+    opacity: 1;
+  }
 }
 
 /* Clean button styling with gold accent */
