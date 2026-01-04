@@ -165,7 +165,7 @@ section.featured {
 }
 
 .featured-card > div > h2 {
-  font-size: 2.25rem !important;
+  font-size: 1.25rem !important;
   color: #fff;
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
   margin-bottom: 1rem;
